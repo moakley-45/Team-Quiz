@@ -33,8 +33,8 @@ Deployment Link: _tbc_
 
 ### FOLLOW UP / OPEN TASKS
 
-- Eva to develop and add to main branch the following files
-    - index.html, style.css, script.js
+- ~~Eva to develop and add to main branch the following files index.html, style.css, script.js~~ 
 - Discuss Wireframe at tomorrows stand-up
 - Pseudo code development
 - revisit and update project board.
+    - Include user stories
