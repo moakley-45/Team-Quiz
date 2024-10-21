@@ -7,9 +7,14 @@ Project Link: https://github.com/moakley-45/Team-Quiz
 Playground Link: https://github.com/moakley-45/MO-Playground
 Deployment Link: _tbc_
 
+## RECURRING TASKS
+
+- Review project board
+- review meeting-minutes from last session
+
 ## 2024-10-21 - Initial Project Meeting
 
-### Topics:
+### TOPICS DISCUSSED:
 
 #### MERGING
 
