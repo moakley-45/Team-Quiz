@@ -4,7 +4,7 @@
 
 [*placeholder for am I responsive screenshot*]
 
-[*placeholder for website link*]
+Website link: https://moakley-45.github.io/Team-Quiz/
 
 ## Project Overview
 
@@ -93,6 +93,9 @@ Based on our user stories and their rated importance, we developed the following
 ## Testing
 
 ## Deployment
+
+Deployed on GitHub Pages on 22-10-2024 using Main Branch
+Deployed Project can be found at this link: https://moakley-45.github.io/Team-Quiz/
 
 ## Citation of Sources
 
