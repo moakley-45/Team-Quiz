@@ -7,10 +7,35 @@ header {
 }
 
 body {
-/* Code here */
+
+/* Bg color #1a1a1a
+text fff 
+sans serif font*/
+
 }
 
+/* .question-image 
+image size laptop+ 80% / 80vh 
+*/
+
+/* .question-text */
+
+/* answer_card */
+
+/* answer_card:hover */
+
+/* card-title */
+
+/* incorrect_answer */
+
+/* correct_answer */
+
 footer {
-/* Code here */
-}
+    /* Code here */
+    }
+
+/* media queries
+question-image, .question-image_2, .question-image_3 */
+
+
 
