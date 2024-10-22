@@ -1,8 +1,12 @@
+/* main colors */
+
 body {
     background-color: #1a1a1a;
     color: #ffffff;
     height: 100vh;
 }
+
+/* adds and controls size of first question image */
 
 .question-image {
     position: relative;
@@ -14,6 +18,8 @@ body {
     margin: auto;
   }
 
+  /* adds and controls size of second question image */
+
   .question-image_2 {
     position: relative;
     background-image: url(https://m.media-amazon.com/images/M/MV5BMTMyMDAwMDM4OF5BMl5BanBnXkFtZTcwMDgzNDE0NQ@@._V1_FMjpg_UX2048_.jpg);
@@ -23,6 +29,8 @@ body {
     width: 80%;
     margin: auto;
   }
+
+  /* adds and controls size of third question image */
 
   .question-image_3 {
     position: relative;
@@ -34,7 +42,7 @@ body {
     margin: auto;
   }
 
-
+/* controls styling of overlay over all images */
 
   .question-text {
     position: absolute;
@@ -45,6 +53,8 @@ body {
     width: -webkit-fill-available;
   }
 
+  /* controls styling of answer cards */
+
   .answer_card {
     background-color: #1a1a1a;
     color: #ffffff;
@@ -53,6 +63,8 @@ body {
     padding: 20px;
 }
 
+/* adds overlay when answer cards are hovered for accessibility */
+
 .answer_card:hover {
     background-color: #4e4e4e;
     color: #ffffff;
@@ -60,23 +72,29 @@ body {
     cursor: pointer;
 }
 
+/* add horizontal rule under card title */
+
 .card-title {
     border-bottom: 1px solid rgb(255, 255, 255, 0.25);
 }
 
-
+/* change answer card to red for incorrect */
 
   .incorrect_answer {
     background-color: rgb(255, 0, 0, 0.4) !important;
   }
 
+  /* changes answer card to green for correct */
+
   .correct_answer {
     background-color: rgb(0, 128, 0, 0.8) !important;
   } 
 
-  .modal-content {
+  /* modal not functioning */
+
+  /* .modal-content {
     background-color: #1a1a1a !important;
-}
+} */
 
   /* Media query for mobile screens */
 @media (max-width: 576px) {
