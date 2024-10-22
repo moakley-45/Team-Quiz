@@ -38,11 +38,12 @@ Deployment Link: https://moakley-45.github.io/Team-Quiz/
 
 ### FOLLOW UP / OPEN TASKS
 
-- Eva to develop and add to main branch the following files index.html, style.css, script.js 
+- Eva to develop and add to main branch the following files index.html, style.css, script.js
 - Discuss Wireframe at tomorrows stand-up
 - Pseudo code development
 - revisit and update project board.
-    - Include user stories
+  - Include user stories
+
 ## 2024- 10-22 - Day 1
 
 ### TOPICS DISCUSSED:
@@ -98,6 +99,18 @@ Deployment Link: https://moakley-45.github.io/Team-Quiz/
 [CLOSED] Develop Day 2 Agenda
 
 ## 2024- 10-23 - Day 2
+
+### DAY OBJECTIVES
+
+- [ ] Front-End Implementation: Each team member continues working on their assigned user stories.
+- [ ] Regular Check-ins: Hold regular check-ins to monitor progress on the Kanban board and resolve any issues.
+      Code Review:
+- [ ] Teams conduct code reviews to ensure clean code, proper indentation, and consistent naming conventions.
+      Testing:
+- [ ] Team members manually test the website on different devices and browsers to ensure responsiveness and bug-free functionality.
+- [ ] Submit pull requests and resolve any merge conflicts
+- [ ] Create the project README.md files to include a clear rationale for the development of the project, key project goals, and target audience.
+- [ ] Include wireframes and supporting UX such as colour, typography choices
 
 ### TOPICS DISCUSSED:
 
