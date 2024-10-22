@@ -11,7 +11,7 @@
 The goal of this project is to provide users with a fun, rewarding quiz which challenges their knowledge of popular movies.
 With this intention in mind, the website has been designed with three different types of question; A "Picture" question type, a "Trivia" style question, and a "Fill in the blank" question:
 
-[*placeholder for image of each question type, side by side *]
+[*placeholder for image of each question type, side by side*]
 
 This variety in question presentation and in the popularity of the movies included aims to keep the user entertained and stimulated.
 
