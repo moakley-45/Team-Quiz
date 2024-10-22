@@ -21,6 +21,45 @@ A combination of styling in CSS and functionality using JavaScript and Bootstrap
 
 ## User stories
 
+### Must Have
+
+As a user I would like to be able to navigate the page in order to access all of the quiz categories. 
+
+As a user I would like to be able to see what the correct answer is to each question in order to know if I answered correctly or not. 
+
+As a user I would like visual cues for each question in order to feel engaged in the quiz.
+
+As a user I would like to be able to see my score in order to gauge how good I am at movie trivia.
+
+As a user I would like to be presented with multiple choices in order to make it easier to answer questions.
+
+### Should Have
+
+As a user I would like to be able to select my difficulty level in order to make the quiz challenging but achievable.
+
+As a product owner I would like to be able to encourage an active user base in order to future benefit from monetized adverts.
+
+As a user I would like a time limit in order to add a sense of urgency to my play time.
+
+As a returning user I would like modulated feedback in order to be encouraged to try again.
+
+
+### Could Have
+
+As a product owner I would like my users to be able to create an account in order to contact users with updates and increase screen time. 
+
+As a user I would like my score to appear on a leaderboard in order to compare my score with other users.
+
+As a product owner I would like exclusive quizzes for VIP users in order to create a sense of exclusivity.
+
+
+### Won’t Have
+
+As a product owner I would like to add premium accounts in order to further monetize the website.
+
+As a product owner I would like to be able to see what my users think of the quiz in order to tailor future development.
+
+As a user I would like to have visual celebration when I answer all the questions correctly in order to feel great in my success.
 
 ## List of Features
 
