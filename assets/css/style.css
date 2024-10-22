@@ -1,0 +1,100 @@
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    height: 100vh;
+}
+
+.question-image {
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMTQ0MTc1NDkyN15BMl5BanBnXkFtZTgwOTMzOTIwMjE@._V1_FMjpg_UX2160_.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh; 
+    width: 80%;
+    margin: auto;
+  }
+
+  .question-image_2 {
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMTMyMDAwMDM4OF5BMl5BanBnXkFtZTcwMDgzNDE0NQ@@._V1_FMjpg_UX2048_.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh; 
+    width: 80%;
+    margin: auto;
+  }
+
+  .question-image_3 {
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMTA2OTgwMzk3NTBeQTJeQWpwZ15BbWU4MDI1ODkyMDIx._V1_FMjpg_UX2160_.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh; 
+    width: 80%;
+    margin: auto;
+  }
+
+
+
+  .question-text {
+    position: absolute;
+    bottom: 0%;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: -webkit-fill-available;
+  }
+
+  .answer_card {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: 1px solid orange;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.answer_card:hover {
+    background-color: #4e4e4e;
+    color: #ffffff;
+    transition: all, ease-in, 2s;
+    cursor: pointer;
+}
+
+.card-title {
+    border-bottom: 1px solid rgb(255, 255, 255, 0.25);
+}
+
+
+
+  .incorrect_answer {
+    background-color: rgb(255, 0, 0, 0.4) !important;
+  }
+
+  .correct_answer {
+    background-color: rgb(0, 128, 0, 0.8) !important;
+  } 
+
+  .modal-content {
+    background-color: #1a1a1a !important;
+}
+
+  /* Media query for mobile screens */
+@media (max-width: 576px) {
+    .question-image, .question-image_2, .question-image_3  {
+        width: 100%;   
+        height: auto; 
+
+        /* Force square dimensions on Mobile */
+        height: 100vw;
+        object-fit: cover;
+    }
+}
+
+/* Media query for laptop screens and larger */
+@media (min-width: 992px) {
+    .question-image, .question-image_2, .question-image_3 {
+     height: 80vh; 
+     width: 80%;
+     margin: auto;
+   }
+}
