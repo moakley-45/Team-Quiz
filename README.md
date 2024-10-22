@@ -19,11 +19,37 @@ Clean and simple styling combined with large text and images are used to draw th
 
 A combination of styling in CSS and functionality using JavaScript and Bootstrap make the website attractive and engaging, furthering our goals of providing a positive and interactive user experience.
 
+## User stories
+
+
 ## List of Features
+
+Based on our user stories and their rated importance, we developed the following existing features, and planned future features for a later iteration.
+
+### Existing features
+- Navbar
+- Score
+- Right/wrong
+- Images
+- Multiple choice
+
+
+### Future features
+
+- High priority
+    - Leaderboard
+    - Difficulty level
+    - Adverts
+    - Account
+    - Timer
+- Lower priority
+    - Premium accounts
+    - User reviews
 
 ## UX/UI
 
 [*placeholder for Wireframes*]
+
 
 ## Testing
 
