@@ -118,6 +118,20 @@ Deployment Link: https://moakley-45.github.io/Team-Quiz/
 
 ## 2024- 10-24 - Day 3
 
+### Day Objectives:
+
+Deployment:
+
+- [ ] Teams deploy their completed projects to a cloud-based hosting platform like GitHub Pages.
+
+Presentation Preparation:
+
+- [ ] Each team prepares a concise presentation showcasing their website's features and design decisions. Each team member will contribute to the presentation
+
+Final Judging:
+
+- [ ] Teams present their projects, and judges evaluate them based on User Experience, Design and Responsiveness, Code Quality and Documentation and Agile Process
+
 ### TOPICS DISCUSSED:
 
 ### FOLLOW UP / OPEN TASKS
