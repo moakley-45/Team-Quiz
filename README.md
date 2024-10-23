@@ -4,7 +4,7 @@
 
 [*placeholder for am I responsive screenshot*]
 
-[*placeholder for website link*]
+Website link: https://moakley-45.github.io/Team-Quiz/
 
 ## Project Overview
 
@@ -109,6 +109,9 @@ This was finally resolved in mob programming, with the insertion of this line in
 This fully resolved the issue.
 
 ## Deployment
+
+Deployed on GitHub Pages on 22-10-2024 using Main Branch
+Deployed Project can be found at this link: https://moakley-45.github.io/Team-Quiz/
 
 ## Citation of Sources
 

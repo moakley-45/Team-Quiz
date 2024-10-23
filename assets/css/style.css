@@ -68,7 +68,7 @@ body {
 .answer_card:hover {
     background-color: #4e4e4e;
     color: #ffffff;
-    transition: all, ease-in, 2s;
+    transition: all, ease-in, 1.5s;
     cursor: pointer;
 }
 
