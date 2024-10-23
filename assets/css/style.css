@@ -169,6 +169,7 @@ body {
   margin-right: 2rem;
   padding: 7px;
   border-radius: 3px;
+  height: 60vh;
 }
 
 .trivia-question-text {
