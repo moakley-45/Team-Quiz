@@ -104,7 +104,7 @@ We had an issue with the modal used to accept and display the user's submitted n
 
 This was finally resolved in mob programming, with the insertion of this line in the function as per Eva's suggestion:
 
-![image](assets/media/Screenshot 2024-10-23 at 10.47.57.png)
+![image](assets/media/bug-report-codefix.png)
 
 This fully resolved the issue.
 
