@@ -28,6 +28,7 @@ body {
   display: none;
 }
 
+/* PICTURE ROUND PAGE */
 /* adds and controls size of first question image */
 
 .question-image {
@@ -159,6 +160,21 @@ body {
     width: -webkit-fill-available;
   }
 
+/* TRIVIA ROUND PAGE */
+
+#trivia-question {
+  background-color: rgba(255, 166, 0, 0.42);
+  margin-top: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 7px;
+  border-radius: 3px;
+}
+
+.trivia-question-text {
+  font-size: 2rem;
+}
+
   /* controls styling of answer cards */
 
   .answer_card {
@@ -256,4 +272,12 @@ span.close-button {
      width: 80%;
      margin: auto;
    }
+
+   /* Trivia Round page */
+
+   #trivia-question {
+    margin-top: 8rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
 }
