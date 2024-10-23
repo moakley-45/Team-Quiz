@@ -102,19 +102,36 @@ Deployment Link: https://moakley-45.github.io/Team-Quiz/
 
 ### DAY OBJECTIVES
 
-- [ ] Front-End Implementation: Each team member continues working on their assigned user stories.
-- [ ] Regular Check-ins: Hold regular check-ins to monitor progress on the Kanban board and resolve any issues.
+- [x] Front-End Implementation: Each team member continues working on their assigned user stories.
+- [x] Regular Check-ins: Hold regular check-ins to monitor progress on the Kanban board and resolve any issues.
       Code Review:
-- [ ] Teams conduct code reviews to ensure clean code, proper indentation, and consistent naming conventions.
+- [x] Teams conduct code reviews to ensure clean code, proper indentation, and consistent naming conventions.
       Testing:
-- [ ] Team members manually test the website on different devices and browsers to ensure responsiveness and bug-free functionality.
-- [ ] Submit pull requests and resolve any merge conflicts
-- [ ] Create the project README.md files to include a clear rationale for the development of the project, key project goals, and target audience.
-- [ ] Include wireframes and supporting UX such as colour, typography choices
+- [x] Team members manually test the website on different devices and browsers to ensure responsiveness and bug-free functionality.
+- [x] Submit pull requests and resolve any merge conflicts
+- [x] Create the project README.md files to include a clear rationale for the development of the project, key project goals, and target audience.
+- [x] Include wireframes and supporting UX such as colour, typography choices
 
 ### TOPICS DISCUSSED:
 
+- Bug fixes - modal
+- Mob programming
+- UX discussion (Google Fonts, Flaticon, Logo.com, Favicon)
+- Mob programming (HTML finalisation)
+- Mob programming (Javascript)
+- Bug fix (JS modal issue)
+- Update ReadMe file
+- Review project board
+- Added additional pages
+- Font clearup
+
 ### FOLLOW UP / OPEN TASKS
+
+[CLOSED] Begin work on the primary JavaScript Functions - Mob development: Build modal
+[OPEN] JS task - Build Score Function - pseudo coding session, mob programming JS implementation
+[OPEN] Presentation Preparation
+[OPEN] Final Testing
+[OPEN] ReadMe Final Iteration + am I responsive images
 
 ## 2024- 10-24 - Day 3
 
