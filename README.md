@@ -118,6 +118,15 @@ This was triaged as being due to missing CSS styling that was needed as part of 
 
 ![image](assets/media/bug-report-missing-css.png)
 
+Example Bug 3:
+
+We had an issue with the Modal feature failing to close if the user tries to use the optional Close button:
+
+![image](assets/media/bug-report-broken_close.gif)
+
+This has been fixed by adding a new Event Listener, to resolve this issue:
+
+![image](assets/media/bug-report-modal_close_fix.png)
 
 ## Deployment
 
