@@ -10,7 +10,7 @@ body {
 
 .question-image {
     position: relative;
-    background-image: url(https://m.media-amazon.com/images/M/MV5BMTQ0MTc1NDkyN15BMl5BanBnXkFtZTgwOTMzOTIwMjE@._V1_FMjpg_UX2160_.jpg);
+    background-image: url(assets/images/Jurassic_Park.jpg);
     background-size: cover;
     background-position: center;
     height: 80vh; 
@@ -22,7 +22,7 @@ body {
 
   .question-image_2 {
     position: relative;
-    background-image: url(https://m.media-amazon.com/images/M/MV5BMTMyMDAwMDM4OF5BMl5BanBnXkFtZTcwMDgzNDE0NQ@@._V1_FMjpg_UX2048_.jpg);
+    background-image: url(assets/images/The_Big_Lebrowski.jpg);
     background-size: cover;
     background-position: center;
     height: 80vh; 
@@ -34,7 +34,7 @@ body {
 
   .question-image_3 {
     position: relative;
-    background-image: url(https://m.media-amazon.com/images/M/MV5BMTA2OTgwMzk3NTBeQTJeQWpwZ15BbWU4MDI1ODkyMDIx._V1_FMjpg_UX2160_.jpg);
+    background-image: url(assets/images/The_Mark_of_Zorro.jpg);
     background-size: cover;
     background-position: center;
     height: 80vh; 
