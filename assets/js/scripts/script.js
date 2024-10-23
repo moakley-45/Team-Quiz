@@ -2,6 +2,7 @@
 
 const modal = document.getElementById('user-name_modal');
 const form = document.getElementById('nameForm');
+const modalClose = document.getElementById('nameModalClose');
 
 const correctAnswer = document.getElementById('answer_a');
 const incorrectAnswer = document.getElementById('answer_b');
@@ -28,6 +29,8 @@ function hideModal() {
 window.onload = function() {
     showModal();
 };
+
+modalClose.addEventListener('click', hideModal);
 
 /** Adds an event listener - when the user submits
  * a name, the modal is hidden and the Player Elements
