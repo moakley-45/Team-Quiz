@@ -33,6 +33,11 @@ window.onload = function() {
  * a name, the modal is hidden and the Player Elements
  * Section is updated with their data
  */
-
+form.addEventListener('submit', function(event) {
+    event.preventDefault();
+    const userInput = document.getElementById('userNameInput').value;
+    document.getElementById("player_name").innerHTML = userInput;
+    hideModal();
+})
 
 /* /Modal Functions */
