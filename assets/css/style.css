@@ -10,7 +10,7 @@ body {
 
 .question-image {
     position: relative;
-    background-image: url(assets/images/Jurassic_Park.jpg);
+    background-image: url(../images/Jurassic_Park.jpg);
     background-size: cover;
     background-position: center;
     height: 60vh; 
@@ -22,7 +22,7 @@ body {
 
   .question-image_2 {
     position: relative;
-    background-image: url(assets/images/The_Big_Lebrowski.jpg);
+    background-image: url(../images/The_Big_Lebrowski.jpg);
     background-size: cover;
     background-position: center;
     height: 60vh; 
@@ -34,7 +34,7 @@ body {
 
   .question-image_3 {
     position: relative;
-    background-image: url(assets/images/The_Mark_of_Zorro.jpg);
+    background-image: url(../images/The_Mark_of_Zorro.jpg);
     background-size: cover;
     background-position: center;
     height: 60vh; 
@@ -46,7 +46,7 @@ body {
 
     .question-image_4 {
       position: relative;
-      background-image: url(assets/images/Princess_Mononoke.jpg);
+      background-image: url(../images/Princess_Mononoke.jpg);
       background-size: cover;
       background-position: center;
       height: 60vh; 
@@ -58,7 +58,7 @@ body {
 
 .question-image_5 {
   position: relative;
-  background-image: url(assets/images/Goodfellas.jpg);
+  background-image: url(../images/Goodfellas.jpg);
   background-size: cover;
   background-position: center;
   height: 60vh; 
@@ -70,7 +70,7 @@ body {
 
 .question-image_6 {
   position: relative;
-  background-image: url(assets/images/Pulp_Fiction.jpg);
+  background-image: url(../images/Pulp_Fiction.jpg);
   background-size: cover;
   background-position: center;
   height: 60vh; 
@@ -82,7 +82,7 @@ body {
 
 .question-image_7 {
   position: relative;
-  background-image: url(assets/images/Saving_Private_Ryan.jpg);
+  background-image: url(../images/Saving_Private_Ryan.jpg);
   background-size: cover;
   background-position: center;
   height: 60vh; 
@@ -94,7 +94,7 @@ body {
 
 .question-image_8 {
   position: relative;
-  background-image: url(assets/images/Toy_Story.jpg);
+  background-image: url(../images/Toy_Story.jpg);
   background-size: cover;
   background-position: center;
   height: 60vh; 
@@ -106,7 +106,7 @@ body {
 
 .question-image_9 {
   position: relative;
-  background-image: url(assets/images/Silence_of_the_Lambs.jpg);
+  background-image: url(../images/Silence_of_the_Lambs.jpg);
   background-size: cover;
   background-position: center;
   height: 60vh; 
@@ -118,7 +118,7 @@ body {
 
 .question-image_10 {
   position: relative;
-  background-image: url(assets/images/The_Shawshank_Redemption.jpg);
+  background-image: url(../images/The_Shawshank_Redemption.jpg);
   background-size: cover;
   background-position: center;
   height: 60vh; 
