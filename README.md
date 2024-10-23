@@ -33,6 +33,10 @@ As a user I would like to be able to see my score in order to gauge how good I a
 
 As a user I would like to be presented with multiple choices in order to make it easier to answer questions.
 
+As a site admin, I want a strong logo to create a strong sense of brand identity and visually represent the site.
+
+As a site admin, I need a favicon to complete the site's design and add visual cohesion with the site's logo
+
 ### Should Have
 
 As a user I would like to be able to select my difficulty level in order to make the quiz challenging but achievable.
@@ -91,6 +95,18 @@ Based on our user stories and their rated importance, we developed the following
 
 
 ## Testing
+
+Example Bug:
+
+We had an issue with the modal used to accept and display the user's submitted name; the modal would reset as the page re-loaded after the submission, creating an endless loop:
+
+![image](assets/media/bug-report-endlessloop.gif)
+
+This was finally resolved in mob programming, with the insertion of this line in the function as per Eva's suggestion:
+
+![image](assets/media/Screenshot 2024-10-23 at 10.47.57.png)
+
+This fully resolved the issue.
 
 ## Deployment
 
