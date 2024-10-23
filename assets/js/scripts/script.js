@@ -14,14 +14,20 @@ const incorrectAnswer = document.getElementById('answer_b');
 
 
 /** Shows the modal when needed */
-
+function showModal() {
+    modal.classList.remove('hidden');
+}
 
 
 /** Hides the modal when needed */
-
+function hideModal() {
+    modal.classList.add('hidden');
+}
 
 /** Loads the modal when page finishes loading */
-
+window.onload = function() {
+    showModal();
+};
 
 /** Adds an event listener - when the user submits
  * a name, the modal is hidden and the Player Elements
