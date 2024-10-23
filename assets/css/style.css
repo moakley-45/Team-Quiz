@@ -8,6 +8,22 @@ body {
     height: 100vh;
 }
 
+/* Raleway: CSS class for a variable style */
+
+.body-text {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+/* Courier Prime: CSS classes */
+
+.heading-text {
+  font-family: "Courier Prime", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .hidden {
   display: none;
 }
@@ -228,6 +244,9 @@ span.close-button {
         height: 100vw;
         object-fit: cover;
     }
+    #question_content {
+      font-size: 1.5rem;
+  }
 }
 
 /* Media query for laptop screens and larger */
