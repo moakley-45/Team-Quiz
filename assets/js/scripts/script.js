@@ -1,5 +1,11 @@
 /* Variables */
 
+const modal = document.getElementById('user-name_modal');
+const form = document.getElementById('nameForm');
+
+const correctAnswer = document.getElementById('answer_a');
+const incorrectAnswer = document.getElementById('answer_b');
+
 
 /* Functions */
 
