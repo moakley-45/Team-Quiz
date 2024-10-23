@@ -142,7 +142,7 @@ body {
   .answer_card {
     background-color: #1a1a1a;
     color: #ffffff;
-    border: 1px solid orange;
+    border: 1px solid rgb(255, 165, 0);
     border-radius: 8px;
     padding: 20px;
 }
