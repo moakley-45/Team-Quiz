@@ -108,6 +108,17 @@ This was finally resolved in mob programming, with the insertion of this line in
 
 This fully resolved the issue.
 
+Example Bug 2:
+
+We had a second issue with the above Modal implementation - the user could insert their name and the expected HTML changes would take place ; yet the Modal would not close:
+
+![image](assets/media/bug-report-modal-not-hiding.png)
+
+This was triaged as being due to missing CSS styling that was needed as part of the javascript, that had been lost between merges. Returning this CSS resolved the issue, and allowed the 'Hide Modal' function to work correctly again:
+
+![image](assets/media/bug-report-missing-css.png)
+
+
 ## Deployment
 
 Deployed on GitHub Pages on 22-10-2024 using Main Branch
