@@ -194,8 +194,8 @@ body {
 
 /* Media query for laptop screens and larger */
 @media (min-width: 992px) {
-    .question-image, .question-image_2, .question-image_3 {
-     height: 80vh; 
+    .question-image, .question-image_2, .question-image_3, .question-image_4, .question-image_5, .question-image_6, .question-image_7, .question-image_8, .question-image_9, .question-image_10  {
+     height: 72vh; 
      width: 80%;
      margin: auto;
    }
