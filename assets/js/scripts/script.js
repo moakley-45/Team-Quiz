@@ -69,10 +69,10 @@ function updateScore() {
 // Function to handle when an answer card is clicked
 function handleCardClick(event) {
     const clickedCard = event.currentTarget;  
-    const cardId = clickedCard.id;  
+    const cardTag = clickedCard.getAttribute('data-tag');
 
     // Check if the clicked card is correct
-    if (cardId === 'answer_a') {
+    if (cardTag === 'answer_a') {
         clickedCard.classList.add('correct_answer');  // Add the correct answer class
         score++;  // Increment the score
         updateScore();  // Update the score display
