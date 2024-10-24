@@ -223,17 +223,16 @@ body {
     pointer-events: none; /* Disable further interactions */
 }
 
+/* /ANSWER CARDS */
 
-/* Footer Content */
+/* FOOTER CONTENT */
 
 img#r_t_t-arrow {
   width: 10rem;
   height: 10rem;
   filter: invert(1);
 }
-/* /Footer Content */
-
-/* /ANSWER CARDS */
+/* /FOOTER CONTENT */
 
 /* MODAL CONTENT */
 
