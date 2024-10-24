@@ -222,8 +222,9 @@ body {
 
 /* Footer Content */
 
-i.bi.bi-arrow-up-circle-fill.h1 {
-  font-size: calc(1.375rem + 5.5vw) !important;
+img#r_t_t-arrow {
+  width: 10rem;
+  height: 10rem;
 }
 /* /Footer Content */
 
