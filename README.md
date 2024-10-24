@@ -1,6 +1,6 @@
 # Welcome to Team-Quiz
 
-![image](assets/images/Am-I-Responsive.png)
+![image](assets/media/Am-I-Responsive.png)
 
 Website link: https://moakley-45.github.io/Team-Quiz/
 
