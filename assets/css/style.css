@@ -1,5 +1,5 @@
 
-
+/* GENERAL STYLES */
 /* main colors */
 
 body {
@@ -27,6 +27,7 @@ body {
 .hidden {
   display: none;
 }
+/* /GENERAL STYLES */
 
 /* PICTURE ROUND PAGE */
 /* adds and controls size of first question image */
@@ -159,10 +160,11 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     width: -webkit-fill-available;
   }
+/* /PICTURE ROUND PAGE */
 
 /* TRIVIA ROUND PAGE */
 
-#trivia-question {
+.trivia-question {
   background-color: rgba(255, 166, 0, 0.42);
   margin-top: 4rem;
   margin-left: 2rem;
@@ -177,7 +179,9 @@ body {
   margin-top: 4rem;
   text-align: center;
 }
+/* /TRIVIA ROUND PAGE
 
+/* ANSWER CARDS */
   /* controls styling of answer cards */
 
   .answer_card {
@@ -219,7 +223,9 @@ body {
     pointer-events: none; /* Disable further interactions */
 }
 
-/* Modal Content */
+/* /ANSWER CARDS */
+
+/* MODAL CONTENT */
 
 #user-name_modal {
   width: 20rem;
@@ -256,7 +262,10 @@ span.close-button {
   .modal-content {
     background-color: #1a1a1a !important;
 }
-  /* Media query for mobile screens */
+
+/* /MODAL CONTENT */
+
+/* Media query for mobile screens */
 @media (max-width: 576px) {
     .question-image, .question-image_2, .question-image_3  {
         width: 100%;   
