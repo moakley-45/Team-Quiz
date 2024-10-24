@@ -54,7 +54,7 @@ form.addEventListener('submit', function(event) {
     document.getElementById("player_name").innerHTML = userInput;
     localStorage.setItem('userName', userInput);
     hideModal();
-})
+});
 
 /* /Modal Functions */
 
