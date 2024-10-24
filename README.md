@@ -1,8 +1,6 @@
 # Welcome to Team-Quiz
 
-## Introduction
-
-[*placeholder for am I responsive screenshot*]
+![image](assets/images/Am-I-Responsive.png)
 
 Website link: https://moakley-45.github.io/Team-Quiz/
 
@@ -137,4 +135,27 @@ Deployed Project can be found at this link: https://moakley-45.github.io/Team-Qu
 
 ## Future Features
 
+- Trivia page
+- Fill The Blanks page
+- Difficulty rating for quiz content
+- Adverts displayed on the page
+- Timer for quiz time limit
+- Feedback message box after quiz completion
+- Ability to create an account and log in
+- Leaderboard for members
+- Premium membership
+- Exclusive quizzes for premium members
+- User reviews/star rating for each quiz
+- Celebration graphic for 100% correct answers
+
 ## Known Bugs
+
+#### Trivia Page Functionality
+
+We had difficulties getting one of our Javascript functions to apply to the trivia page. 
+The function worked fine on our main page but, due to time constraints, we could not find the error which causes it to not respond as intended on the trivia page.
+
+To be rectified at start of next sprint.
+
+![image](assets/images/Knownbug1.png)
+
