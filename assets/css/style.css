@@ -223,6 +223,14 @@ body {
     pointer-events: none; /* Disable further interactions */
 }
 
+
+/* Footer Content */
+
+i.bi.bi-arrow-up-circle-fill.h1 {
+  font-size: calc(1.375rem + 5.5vw) !important;
+}
+/* /Footer Content */
+
 /* /ANSWER CARDS */
 
 /* MODAL CONTENT */
