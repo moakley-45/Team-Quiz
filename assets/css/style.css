@@ -229,6 +229,7 @@ body {
 img#r_t_t-arrow {
   width: 10rem;
   height: 10rem;
+  filter: invert(1);
 }
 /* /Footer Content */
 
