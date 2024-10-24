@@ -234,10 +234,9 @@ body {
 
 span.close-button {
   float: right;
-  position: fixed;
-  right: 42%;
   cursor: pointer;
   font-size: larger;
+  margin-left: 20px;
 }
 
 #nameForm {
