@@ -16,6 +16,7 @@ let score = 0;
 /** Shows the modal when needed */
 function showModal() {
     modal.classList.remove('hidden');
+    localStorage.setItem('modalShown', 'true');
 }
 
 
@@ -24,9 +25,21 @@ function hideModal() {
     modal.classList.add('hidden');
 }
 
+function rememberName() {
+    const userInput = localStorage.getItem('userName'); // Correct key name
+    if (userInput) {
+        document.getElementById('player_name').innerHTML = userInput;
+    }
+}
 /** Loads the modal when page finishes loading */
 window.onload = function() {
-    showModal();
+    // Check if 'modalShown' is not in localStorage (i.e., first visit)
+    if (!localStorage.getItem('modalShown')) {
+        showModal();
+    }
+    else {
+        rememberName();
+    }
 };
 
 modalClose.addEventListener('click', hideModal);
@@ -39,6 +52,7 @@ form.addEventListener('submit', function(event) {
     event.preventDefault();
     const userInput = document.getElementById('userNameInput').value;
     document.getElementById("player_name").innerHTML = userInput;
+    localStorage.setItem('userName', userInput);
     hideModal();
 })
 
