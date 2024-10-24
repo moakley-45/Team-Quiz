@@ -4,8 +4,7 @@ const modal = document.getElementById('user-name_modal');
 const form = document.getElementById('nameForm');
 const modalClose = document.getElementById('nameModalClose');
 
-const correctAnswer = document.getElementById('answer_a');
-const incorrectAnswer = document.getElementById('answer_b');
+let score = 0;
 
 
 /* Functions */
@@ -44,3 +43,46 @@ form.addEventListener('submit', function(event) {
 })
 
 /* /Modal Functions */
+
+/* Answer functions */
+
+// Function to update the score on the page
+function updateScore() {
+    const scoreDisplay = document.getElementById('player_score');
+    scoreDisplay.textContent = `${score}`;
+}
+
+// Function to handle when an answer card is clicked
+function handleCardClick(event) {
+    const clickedCard = event.currentTarget;  
+    const cardId = clickedCard.id;  
+
+    // Check if the clicked card is correct
+    if (cardId === 'answer_a') {
+        clickedCard.classList.add('correct_answer');  // Add the correct answer class
+        score++;  // Increment the score
+        updateScore();  // Update the score display
+    } else {
+        clickedCard.classList.add('incorrect_answer');  // Add the incorrect answer class
+    }
+
+    // Disable further clicks on the clicked card
+    clickedCard.removeEventListener('click', handleCardClick);
+
+    // Disable other cards for the same question after an answer is selected
+    disableQuestionCards(clickedCard);
+}
+
+// Function to disable all cards in the same question once one is clicked
+function disableQuestionCards(clickedCard) {
+    const parentContainer = clickedCard.closest('.image-questions');  // Find the parent container (question)
+    const questionCards = parentContainer.querySelectorAll('.answer_card');  // Find all answer cards in this question
+    questionCards.forEach(card => {
+        card.removeEventListener('click', handleCardClick);  // Disable further clicks on all cards for this question
+    });
+}
+
+// Attach event listeners to all answer cards
+document.querySelectorAll('.answer_card').forEach(card => {
+    card.addEventListener('click', handleCardClick);
+});

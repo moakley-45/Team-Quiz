@@ -215,6 +215,10 @@ body {
     background-color: rgb(0, 128, 0, 0.8) !important;
   } 
 
+  .disabled {
+    pointer-events: none; /* Disable further interactions */
+}
+
 /* Modal Content */
 
 #user-name_modal {
