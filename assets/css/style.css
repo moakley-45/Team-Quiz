@@ -269,6 +269,10 @@ span.close-button {
     #question_content {
       font-size: 1.5rem;
   }
+  .trivia-question-text {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
 }
 
 /* Media query for laptop screens and larger */
